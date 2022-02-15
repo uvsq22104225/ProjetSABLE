@@ -11,7 +11,9 @@
 #########################################
 
 
+from cmath import inf
 import tkinter as tk
+import random as rand
 
 
 #########################################
@@ -38,10 +40,13 @@ bouton = tk.Button(text="Ouverture de la fenetre",
 bouton.grid(column=0, row=1)
 canvas = tk.Canvas(racine, bg="Black", height=HEIGHT, width=WIDTH)
 canvas.grid(column=0, row=0)
-# on récupère l'identifiant du cercle:
-Ligne1 = canvas.create_line(166,0,166,500, fill="white", width=5)
-Ligne2 = canvas.create_line(333,0,333,500, fill="white", width=5) 
-Ligne3 = canvas.create_line(0,166,500,166, fill="white", width=5) 
-Ligne4 = canvas.create_line(0,333,500,333, fill="white", width=5) 
+def lignes(n):
+    x=HEIGHT/n/2
+    y=WIDTH/n/2
+    for i in range(n):
+        ligne= canvas.create_line(HEIGHT/n*i,0,WIDTH/n*i,500, fill="white")
+        text= canvas.create_text(x,y,text="a",fill ="white")
+        ligne1= canvas.create_line(0,HEIGHT/n*i,500,WIDTH/n*i, fill="white")
+lignes(5)
 
 racine.mainloop() # Lancement de la boucle principale 
