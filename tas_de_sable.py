@@ -15,11 +15,16 @@ import tkinter as Tk
 
 
 #########################################
-#      DEFINITIONS DES CONSTANTES       #
+#       DEFINITION DES CONSTANTES       #
 #########################################
 
 
 
 #########################################
-#  DEFINITIONS DES VARIABLES GLOBALES   #
+#  DEFINITION DES VARIABLES GLOBALES    #
+#########################################
+
+
+#########################################
+#       DEFINITION DES FONCTIONS        #
 #########################################
