@@ -41,7 +41,7 @@ canvas.grid(column=0, row=0)
 # on récupère l'identifiant du cercle:
 Ligne1 = canvas.create_line(166,0,166,500, fill="white", width=5)
 Ligne2 = canvas.create_line(333,0,333,500, fill="white", width=5) 
-Ligne3 = canvas.create_line(166,0,166,500, fill="white", width=5) 
-Ligne4 = canvas.create_line(333,333,166,500, fill="white", width=5) 
+Ligne3 = canvas.create_line(0,166,500,166, fill="white", width=5) 
+Ligne4 = canvas.create_line(0,333,500,333, fill="white", width=5) 
 
 racine.mainloop() # Lancement de la boucle principale 
