@@ -17,9 +17,9 @@ import tkinter as Tk
 #########################################
 #       DEFINITION DES CONSTANTES       #
 #########################################
-# ici les constantes
 
-#MODIFICATION
+
+
 #########################################
 #  DEFINITION DES VARIABLES GLOBALES    #
 #########################################
