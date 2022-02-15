@@ -40,4 +40,4 @@ canvas = tk.Canvas(racine, bg="Black", height=HEIGHT, width=WIDTH)
 canvas.grid(column=0, row=0)
 # on récupère l'identifiant du cercle:
 Ligne = canvas.create_line(166,0,166,500, fill="white", width=5) 
-racine.mainloop() # Lancement de la boucle principale
+racine.mainloop() # Lancement de la boucle principale 
